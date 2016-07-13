@@ -1,4 +1,4 @@
-require_relative 'user'
+require_relative 'User'
 class Admin < User
     attr_accessor :discount
     def initialize(name, money, discount = 0.10)

@@ -14,5 +14,5 @@ class Person
         @age
     end
 end 
-my_profile = person.new("Aron", 34)
+my_profile = Person.new("Aron", 34)
 puts "Hi, I am #{my.profile.name} and I am #{my.profile.age}-years old."
